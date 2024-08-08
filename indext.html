@@ -52,12 +52,12 @@
         #home {
             display: block;
         }
-        .cardapio {
+        .brigadeiros {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
         }
-        .item-cardapio {
+        .brigadeiro {
             background-color: #fff;
             color: black;
             margin: 10px;
@@ -65,7 +65,7 @@
             border-radius: 8px;
             width: 200px;
         }
-        .item-cardapio img {
+        .brigadeiro img {
             max-width: 100%;
             border-radius: 8px;
         }
@@ -103,42 +103,28 @@
     </header>
     <nav>
         <a onclick="showSection('home')">Home</a>
-        <a onclick="showSection('cardapio')">Cardápio</a>
+        <a onclick="showSection('types')">Tipos de Brigadeiros</a>
         <a onclick="showSection('contact')">Contato</a>
         <a onclick="showSection('notifications')">Notificações</a>
     </nav>
     <section id="home">
         <h2>Bem-vindo ao Brigadeiro Mania!</h2>
-        <p>Explore nossos deliciosos doces.</p>
+        <p>Explore nossos deliciosos brigadeiros.</p>
     </section>
-    <section id="cardapio">
-        <h2>Cardápio</h2>
-        <div class="cardapio">
-            <div class="item-cardapio">
-                <img src="refrigerante.jpg" alt="Refrigerante">
-                <h3>Refrigerantes</h3>
-                <p>Variedade de refrigerantes gelados.</p>
+    <section id="types">
+        <h2>Nossos Brigadeiros</h2>
+        <div class="brigadeiros">
+            <div class="brigadeiro">
+                <img src="brigadeiro1.jpg" alt="Brigadeiro Tradicional">
+                <h3>Brigadeiro Tradicional</h3>
+                <p>O clássico brigadeiro feito com chocolate ao leite.</p>
             </div>
-            <div class="item-cardapio">
-                <img src="balas.jpg" alt="Balas">
-                <h3>Balas</h3>
-                <p>Balas de diversos sabores e texturas.</p>
+            <div class="brigadeiro">
+                <img src="brigadeiro2.jpg" alt="Brigadeiro Gourmet">
+                <h3>Brigadeiro Gourmet</h3>
+                <p>Feito com chocolate belga para um sabor inesquecível.</p>
             </div>
-            <div class="item-cardapio">
-                <img src="brigadeiro.jpg" alt="Brigadeiros">
-                <h3>Brigadeiros</h3>
-                <p>Brigadeiros tradicionais e gourmet.</p>
-            </div>
-            <div class="item-cardapio">
-                <img src="salgados.jpg" alt="Salgados">
-                <h3>Salgados</h3>
-                <p>Deliciosos salgados para acompanhar.</p>
-            </div>
-            <div class="item-cardapio">
-                <img src="suco.jpg" alt="Suco">
-                <h3>Sucos</h3>
-                <p>Sucos naturais de diversas frutas.</p>
-            </div>
+            <!-- Adicione mais brigadeiros conforme necessário -->
         </div>
     </section>
     <section id="contact">
